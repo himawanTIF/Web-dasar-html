@@ -75,8 +75,122 @@
         <button>Klik Saya!</button>
 
     </form>
-    <h3>Kombinasi Form dan Table</h3>
 
+    <hr>
+
+    <!-- Contoh Kombinasi Form dengan table agar rapi tanpa css -->
+    <h3>Kombinasi Form dan Table</h3>
+    <table border="0" cellspacing="0" cellpadding="3">
+        <!-- Baris 1 Text -->
+        <tr>
+            <!-- Kolom 1 -->
+            <td align="right">
+                <form action="#">
+                    <label for="text">Text:</label>
+                </form>
+            </td>
+            <!-- Kolom 2 -->
+            <td>
+                <form action="#">
+                    <input type="text" name="text" id="text">
+                </form>
+            </td>
+        </tr>
+        <!-- Baris 2 Password -->
+        <tr>
+            <!-- Kolom 1 -->
+            <td align="right">
+                <form action="#">
+                    <label for="password">Password:</label>
+                </form>
+            </td>
+            <!-- Kolom 2 -->
+            <td>
+                <form action="#">
+                    <input type="password" name="password" id="password">
+                </form>
+            </td>
+        </tr>
+        <!-- Baris 3 Radio Button -->
+        <tr>
+            <!-- Kolom 1 -->
+            <td align="right">
+                <form action="#">
+                    <!-- Radio 1 -->
+                    <label for="radio1">Radio 1</label>
+
+                </form>
+            </td>
+            <!-- Kolom 2 -->
+            <td>
+                <form action="#">
+                    <input type="radio" name="radio1" id="radio1">
+                    <!-- Radio 2 -->
+                    <label for="radio2">Radio 2</label>
+                    <input type="radio" name="radio2" id="radio2">
+                </form>
+            </td>
+        </tr>
+        <!-- Baris 4 Checkbox -->
+        <tr>
+            <!-- Kolom 1 -->
+            <td align="right">
+                <form action="#">
+                    <!-- Checkbox 1 -->
+                    <label for="cb1">checkbox 1</label>
+                </form>
+            </td>
+            <!-- Kolom 2 -->
+            <td>
+                <form action="#">
+                    <input type="checkbox" name="cb1" id="cb1">
+                    <!-- Checkbox 2 -->
+                    <label for="cb2">checkbox 2</label>
+                    <input type="checkbox" name="cb2" id="cb2">
+                </form>
+            </td>
+        </tr>
+        <!-- Baris 5 Combobox -->
+        <tr>
+            <!-- Kolom 1 -->
+            <td align="center">
+                <form action="#">
+                    <label for="combobox">Combo Box:</label>
+                </form>
+            </td>
+            <!-- Kolom 2 -->
+            <td>
+                <form action="#">
+                    <select name="combobox" id="combobox">
+                        <option value="opsi1">Option 1</option>
+                        <option value="opsi2">Option 2</option>
+                        <option value="opsi3">Option 3</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <!-- Baris 6 Textarea -->
+        <tr>
+            <!-- Kolom 1 -->
+            <td align="right">
+                <form action="#">
+                    <label for="textarea">Textarea:</label>
+                </form>
+            </td>
+            <!-- Kolom 2 -->
+            <td>
+                <form action="#">
+                    <textarea name="textarea" id="textarea" cols="20" rows="2"></textarea>
+                </form>
+            </td>
+        </tr>
+        <!-- Baris 7 Button -->
+        <tr>
+            <td colspan="2" align="center">
+                <button>Button</button>
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
